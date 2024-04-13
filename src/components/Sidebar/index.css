@@ -1,0 +1,80 @@
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-left: 20px;
+  height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar-container {
+    display: none;
+  }
+}
+.header-side {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.initial {
+  background-color: #c77195;
+  border-radius: 35px;
+  margin-right: 20px;
+  padding: 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+}
+.name-designation {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.designation {
+  font-size: 16px;
+  color: slategray;
+  margin-top: 0px;
+}
+.conversations-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+}
+.conversation {
+  font-size: 18px;
+  font-weight: 500;
+}
+.plus {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+.office-cont {
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+}
+.hash {
+  background-color: #dee2ec;
+  border-radius: 10px;
+  margin-right: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.office-name {
+  font-weight: 400;
+}
+.introduction {
+  background-color: #4f6ee0;
+  margin-left: 0px;
+  padding-left: 10px;
+}
+.intro {
+  color: white;
+}
